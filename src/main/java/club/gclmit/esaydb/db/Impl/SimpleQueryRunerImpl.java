@@ -110,7 +110,6 @@ public class SimpleQueryRunerImpl<T> extends ChaosQueryRunerImpl implements Simp
         return list;
     }
 
-
     /**
      *  单属性模糊查询
      *
