@@ -1,8 +1,8 @@
-package club.gclmit.esaydb.db.Impl;
+package club.gclmit.easydb.db.Impl;
 
 
-import club.gclmit.esaydb.db.SimpleQueryRuner;
-import club.gclmit.esaydb.util.ObjectUtils;
+import club.gclmit.easydb.db.SimpleQueryRuner;
+import club.gclmit.easydb.util.ObjectUtils;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.apache.commons.dbutils.handlers.ScalarHandler;

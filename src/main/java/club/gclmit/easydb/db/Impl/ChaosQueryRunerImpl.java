@@ -1,6 +1,6 @@
-package club.gclmit.esaydb.db.Impl;
+package club.gclmit.easydb.db.Impl;
 
-import club.gclmit.esaydb.db.ChaosDataSource;
+import club.gclmit.easydb.db.ChaosDataSource;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.ResultSetHandler;
 import org.slf4j.Logger;

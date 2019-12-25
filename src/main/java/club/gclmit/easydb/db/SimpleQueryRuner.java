@@ -1,4 +1,4 @@
-package club.gclmit.esaydb.db;
+package club.gclmit.easydb.db;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package club.gclmit.esaydb.util;
+package club.gclmit.easydb.util;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

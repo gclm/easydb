@@ -1,4 +1,4 @@
-package club.gclmit.esaydb.db;
+package club.gclmit.easydb.db;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
