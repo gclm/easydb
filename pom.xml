@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>club.gclmit</groupId>
-    <artifactId>esaydb</artifactId>
+    <artifactId>easydb</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <url>https://blog.gclmit.club</url>
