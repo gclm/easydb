@@ -15,13 +15,20 @@ public class ChaosDataSource {
 
      private static Logger logger = LoggerFactory.getLogger(ChaosDataSource.class);
 
-     private static String path = ChaosDataSource.class.getClassLoader().getResource("db.properties").getPath();;
+     private static String path = null;
 
      private static class ChaosDataSourceHandler {
          static HikariDataSource instatce = new HikariDataSource(new HikariConfig(path));
      }
 
-     public static HikariDataSource getInstance() {
+     static {
+         /**
+          * 读取数据源配置文件
+          */
+         path = ChaosDataSource.class.getClassLoader().getResource("db.properties").getPath();
+     }
+
+    public static HikariDataSource getInstance() {
          return ChaosDataSourceHandler.instatce;
      }
 }
