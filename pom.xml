@@ -26,7 +26,7 @@
         <mysql.version>8.0.18</mysql.version>
         <hikariCP.version>3.4.1</hikariCP.version>
         <dbutils.version>1.7</dbutils.version>
-        <junit.version>4.11</junit.version>
+        <junit.version>4.13.1</junit.version>
         <commons-lang3.version>3.9</commons-lang3.version>
 
     </properties>
